@@ -1,5 +1,5 @@
-from .autoreact import autoreact
+from .alerts import alerts
 
 def setup(bot):
-    cog = autoreact(bot)
+    cog = alerts(bot)
     bot.add_cog(cog)
